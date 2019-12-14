@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.bkgrdColor{opacity:0.2;}
+	.st1{fill:#333;}
+
+    .bkgrdColor
+    {
+        -webkit-animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+        animation: shake-tl 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    }
+/**
+ * ----------------------------------------
+ * animation shake-tl
+ * ----------------------------------------
+ */
+@-webkit-keyframes shake-tl {
+  0%
+   {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  50%
+   {
+    -webkit-transform: translateY(-100px) translateX(+100px);
+            transform: translateY(-100px) translateX(+100px);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  
+}
+@keyframes shake-tl {
+    0%
+   {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+  50%
+   {
+    -webkit-transform: translateY(-100px) translateX(+100px);
+            transform: translateY(-100px) translateX(+100px);
+  }
+  100% {
+    -webkit-transform: translateY(0) translateX(0);
+            transform: translateY(0) translateX(0);
+  }
+}
+
+
+</style>
+<g class="bkgrdColor">
+	<g>
+		<path class="st1" d="M629.2,770c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3c16.5-16.5,43.3-16.5,59.9,0
+			c16.5,16.5,16.5,43.3,0,59.8L659.1,757.6C650.8,765.8,640,770,629.2,770z"/>
+	</g>
+	<g>
+		<path class="st1" d="M230.6,447.9c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3
+			c16.5-16.5,43.3-16.5,59.9,0c16.5,16.5,16.5,43.3,0,59.8L260.5,435.5C252.3,443.8,241.4,447.9,230.6,447.9z"/>
+	</g>
+	<g>
+		<path class="st1" d="M1096,659.7c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3c16.5-16.5,43.3-16.5,59.9,0
+			c16.5,16.5,16.5,43.3,0,59.8l-660.3,660.3C1117.6,655.6,1106.8,659.7,1096,659.7z"/>
+	</g>
+	<g>
+		<path class="st1" d="M69,966.1c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3c16.5-16.5,43.3-16.5,59.9,0
+			c16.5,16.5,16.5,43.3,0,59.8L98.9,953.7C90.6,961.9,79.8,966.1,69,966.1z"/>
+	</g>
+	<g>
+		<path class="st1" d="M690.9,1421.3c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3
+			c16.5-16.5,43.3-16.5,59.9,0c16.5,16.5,16.5,43.3,0,59.8l-660.3,660.3C712.5,1417.2,701.7,1421.3,690.9,1421.3z"/>
+	</g>
+	<g>
+		<path class="st1" d="M1212.7,1256.1c-10.8,0-21.7-4.1-29.9-12.4c-16.5-16.5-16.5-43.3,0-59.8l660.3-660.3
+			c16.5-16.5,43.3-16.5,59.9,0c16.5,16.5,16.5,43.3,0,59.8l-660.3,660.3C1234.4,1251.9,1223.5,1256.1,1212.7,1256.1z"/>
+	</g>
+</g>
+</svg>

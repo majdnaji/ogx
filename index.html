@@ -13,18 +13,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body>  
+        <ul id="menu">
+                <li class="logo"></li>
+                <li data-menuanchor="programming" class="active"><a href="#programming">First slide</a></li>
+                <li data-menuanchor="about"><a href="#about">Second slide</a></li>
+                <li data-menuanchor="marketing"><a href="#marketing">Third slide</a></li>
+            </ul>
     
     <div id="fullpage">
        
-          <div id="menu">
-                
-          </div>
+       
            
         <div data-anchor="programming" id="" class="section ">
                 
             <div class="container">
-                        <img class="header" src="/assets/img/header.svg" alt="">
+                       
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                                 
@@ -547,10 +551,20 @@
                 </div>
         </div>
         <div data-anchor="marketing" id="mr" class="section marketing">
-                <div class="row">
-
+                <div class="container">
+                        <div class="row">
+                                <div class="col-6 align-items-start">
+                                        <div class="col-12">
+                                                <img class="" src="/assets/img/marketingWord.svg" alt="">
+                                        </div>
+                                        
+                                       
+                                </div>
+        
+                        </div>
                 </div>
-                <img class="anm" src="/assets/img/marketing.svg" alt="">
+                
+                
         </div>
                 <div data-anchor="social-media" id="som" class="section">
                                 <div class="container">
@@ -594,85 +608,17 @@
     
 
 
-
-    <script type="text/javascript" src="/assets/fullPage/dist/fullpage.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/fullPage/dist/fullpage.js"></script>
+    
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-           
-          //Navigation
-	menu: '#menu',
-	lockAnchors: false,
-	anchors:[ 'programming','about','marketing','social-media'],
-	navigation: true,
-	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
-	showActiveTooltip: false,
-	slidesNavigation: false,
-	slidesNavPosition: 'bottom',
-
-	//Scrolling
-	css3: true,
-	scrollingSpeed: 700,
-	autoScrolling: true,
-	fitToSection: true,
-	fitToSectionDelay: 1000,
-	scrollBar: false,
-	easing: 'easeInOutCubic',
-	easingcss3: 'ease',
-	loopBottom: true,
-	loopTop: false,
-	loopHorizontal: true,
-	continuousVertical: false,
-	continuousHorizontal: false,
-	scrollHorizontally: false,
-	interlockedSlides: false,
-	dragAndMove: false,
-	offsetSections: false,
-	resetSliders: false,
-	fadingEffect: true,
-	normalScrollElements: '#element1, .element2',
-	scrollOverflow: false,
-	scrollOverflowReset: false,
-	scrollOverflowOptions: null,
-	touchSensitivity: 15,
-	bigSectionsDestination: null,
-
-	//Accessibility
-	keyboardScrolling: true,
-	animateAnchor: true,
-	recordHistory: true,
-
-	//Design
-	controlArrows: true,
-	verticalCentered: true,
-	sectionsColor : [],
-	
-	fixedElements: '#header, .footer',
-	responsiveWidth: 0,
-	responsiveHeight: 0,
-	responsiveSlides: false,
-	parallax: false,
-	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
-	cards: false,
-	cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
-
-	//Custom selectors
-	sectionSelector: '.section',
-	slideSelector: '.slide',
-
-	lazyLoading: true,
-
-	//events
-	onLeave: function(origin, destination, direction){},
-	afterLoad: function(origin, destination, direction){},
-	afterRender: function(){},
-	afterResize: function(width, height){},
-	afterReBuild: function(){},
-	afterResponsive: function(isResponsive){},
-	afterSlideLoad: function(section, origin, destination, direction){},
-	onSlideLeave: function(section, origin, destination, direction){}
+               
+        anchors: ['programming', 'about', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        lazyLoad: true
+        
         });
     </script>
 </body>

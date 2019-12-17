@@ -60,7 +60,7 @@ img{
 {
     width: 290px;
     color: #EF5B78;
-    font-size: 76px;
+    font-size: 4rem;
 }
 /*.aboutSecImg
 {
@@ -84,28 +84,29 @@ img{
 #menu li {
 	display:inline-block;
 	margin: 10px;
-	color: #000;
+	color: white;
 	
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	
+	color: white;
 }
 #menu li a{
 	text-decoration:none;
-    color: #000;
+    color: white;
     font-size:20px;
 }
 #menu li.active a:hover{
-	color: #000;
+    
+    
 }
 #menu li:hover{
 	
 }
 #menu li a,
 #menu li.active a{
-	padding: 9px 18px;
+	padding: 6px 12px;
 	display:block;
 }
 #menu li.active a{
@@ -115,7 +116,7 @@ img{
 	position:fixed;
 	top:0;
 	left:0;
-	height: 40px;
+	
 	z-index: 70;
 	width: 100%;
 	padding: 0;
@@ -131,6 +132,8 @@ img{
 .sodImg
 {
     max-width: 200px;
+    
+    overflow: hidden;
     text-align: center;
 }
 

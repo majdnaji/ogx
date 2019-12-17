@@ -5,8 +5,11 @@ html , body{
     font-family: 'Lato', sans-serif;
 }
 
-.programming{
-    
+#programming{
+    background-image: url('/assets/img/proBackground.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
    
 }
 .typing{
@@ -52,6 +55,12 @@ img{
     text-align: right;
     margin-top:20px;
     font-family: 'Cairo', sans-serif;
+}
+.proTitle
+{
+    width: 290px;
+    color: #EF5B78;
+    font-size: 76px;
 }
 /*.aboutSecImg
 {
@@ -118,4 +127,22 @@ img{
 }
 .logo a img{
     height: 75px;
+}
+.sodImg
+{
+    max-width: 200px;
+    text-align: center;
+}
+
+.canAnimate
+{
+    animation-play-state:running!important;
+}
+.puaseAnimate
+{
+    animation-play-state:paused!important;
+}
+.animated
+{
+    animation-play-state:paused!important;
 }

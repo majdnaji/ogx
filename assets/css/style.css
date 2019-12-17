@@ -76,25 +76,23 @@ img{
 	display:inline-block;
 	margin: 10px;
 	color: #000;
-	background:#fff;
-	background: rgba(255,255,255, 0.5);
+	
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
-	color: #fff;
+	
 }
 #menu li a{
 	text-decoration:none;
-	color: #000;
+    color: #000;
+    font-size:20px;
 }
 #menu li.active a:hover{
 	color: #000;
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	
 }
 #menu li a,
 #menu li.active a{
@@ -102,7 +100,7 @@ img{
 	display:block;
 }
 #menu li.active a{
-	color: #fff;
+	color: #EF5B78;
 }
 #menu{
 	position:fixed;
@@ -113,4 +111,11 @@ img{
 	width: 100%;
 	padding: 0;
 	margin:0;
+}
+.logo{
+   
+    background-color: transparent;
+}
+.logo a img{
+    height: 75px;
 }

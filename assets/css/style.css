@@ -58,7 +58,7 @@ img{
 }
 .proTitle
 {
-    width: 290px;
+   
     color: #EF5B78;
     font-size: 4rem;
 }
@@ -81,6 +81,9 @@ img{
     top:0;
     left:0;
 }
+#menu{
+    padding:8px 16px!important;
+}
 #menu li {
 	display:inline-block;
 	margin: 10px;
@@ -95,7 +98,7 @@ img{
 #menu li a{
 	text-decoration:none;
     color: white;
-    font-size:20px;
+    font-size: 1.3rem;
 }
 #menu li.active a:hover{
     
@@ -149,3 +152,27 @@ img{
 {
     animation-play-state:paused!important;
 }
+#loading{
+    background-image: url('/assets/img/loader-background.svg');
+    
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+}
+#loading .loader{
+    height: 30vh;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+#loading .loader img{
+   height: 100%;
+   
+    
+}
+

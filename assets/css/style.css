@@ -27,9 +27,6 @@ img{
     height: 100vh;
     width:100vw;
 }
-#som{
-   
-}
 #ab,.branding
 {
     /*EDITED by Mohammad */
@@ -62,14 +59,6 @@ img{
     color: #EF5B78;
     font-size: 4rem;
 }
-/*.aboutSecImg
-{
-    margin-left:-179px;
-    max-width: 150%!important;
-    width:150%;
-    height: 150%;
-    line-height: 24px;
-}*/
 .header
 {
     position:absolute;
@@ -100,13 +89,13 @@ img{
     color: white;
     font-size: 1.3rem;
 }
-#menu li.active a:hover{
+/**#menu li.active a:hover{
     
     
 }
 #menu li:hover{
 	
-}
+}*/
 #menu li a,
 #menu li.active a{
 	padding: 6px 12px;
@@ -174,5 +163,30 @@ img{
    height: 100%;
    
     
+}
+#footer{
+    position:fixed;
+		height: 50px;
+		display:block;
+		width: 100%;
+		
+		z-index:9;
+		
+		color: #f2f2f2;
+        padding: 5px 0 0 0;
+        bottom: 0px;
+}
+.icon img{
+    height: 3vw;
+    clip-path: circle(50% at 50% 50%);
+}
+.icon img:hover{
+    background-color: #EF5B78;
+    transform: rotate(45deg);
+    
+    
+}
+.icon{
+    margin-left: 1vw;
 }
 

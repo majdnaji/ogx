@@ -166,14 +166,14 @@ img{
 }
 #footer{
     position:fixed;
-		height: 50px;
+		
 		display:block;
-		width: 100%;
+		
 		
 		z-index:9;
 		
 		color: #f2f2f2;
-        padding: 5px 0 0 0;
+       
         bottom: 0px;
 }
 .icon img{
@@ -182,11 +182,14 @@ img{
 }
 .icon img:hover{
     background-color: #EF5B78;
-    transform: rotate(45deg);
+    height: 4vw;
+    
     
     
 }
 .icon{
     margin-left: 1vw;
+    margin-bottom: 1vw;
+    display: block;
 }
 

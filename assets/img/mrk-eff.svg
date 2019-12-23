@@ -60,16 +60,7 @@
             -webkit-animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
             animation: slide-in-elliptic-top-fwd 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 6s both;
         }
-        #bar
-        {
-            -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 7s both;
-            animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 7s both;
-        }
-        #ball
-        {
-                -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 8s both,shake-vertical 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-            animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 8s both,shake-vertical 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-        }
+        
         /**
         * ----------------------------------------
         * animation shake-vertical
@@ -674,8 +665,6 @@
             </g>
         </g>
     </g>
-    <rect id="bar" x="754.6" y="997.2" class="st146" width="182.3" height="32.3"/>
-    <circle id="ball" class="st146" cx="905" cy="876.7" r="28.7"/>
     <rect id="b2" x="-1.5" y="584.9" class="st211" width="1373.8" height="219.6"/>
     <g id="b3">
     <rect x="-1.5" y="475.6" class="st211" width="390" height="109.3"/>

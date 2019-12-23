@@ -193,3 +193,10 @@ img{
     display: block;
 }
 
+.markCol
+{
+    background-image: url('/assets/img/mrk-eff.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

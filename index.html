@@ -100,7 +100,10 @@
                 <div class="container">
                         <div class="row">
                                 <div class="col-lg-6 col-sm-12">
-                                        <img class="aboutSecImg" src="/assets/img/BlackWords.svg" alt="">
+
+                                        <div id="blackAnim"></div>
+                                       
+
                                 </div>
                                 <div  class="col-lg-6 col-sm-12">
                                         <h2 class="arTxt proTitle">من نحن</h2>
@@ -117,10 +120,14 @@
         <div data-anchor="marketing" id="mr" class="section marketing">
                 <div class="container">
                         <div class="row">
-                                <div class="col-lg-7 col-sm-12 align-items-start">
+                                <div class="markCol col-lg-7 col-sm-12 align-items-start">
                                         <div class="col-12">
                                                 <img class="" src="/assets/img/marketingWord.svg" alt="">
-                                                <img class="" src="/assets/img/mrk-eff.svg" alt="">
+                                                
+                                                <div id="ballBar"></div>
+                                                
+                                                
+                                                
                                         </div>
                                         
                                        
@@ -248,7 +255,12 @@
     <script type="text/javascript" src="/assets/fullPage/dist/fullpage.js"></script>
     
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/assets/js/backend.js"></script>
+    
+    <!-- Bodymovin Script is needed now -->
+    <script type="text/javascript" src="/assets/js/Bodymovin.js"></script>
+    <script type="text/javascript" src="/assets/js/blackAnim.js"></script>
+    <script type="text/javascript" src="/assets/js/ballBarAnim.js"></script>
+    
     <script type="text/javascript">
         $(window).on('load', function(){ 
            $('#loading').delay(3000).fadeOut('slow');

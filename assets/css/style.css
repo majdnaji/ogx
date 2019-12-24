@@ -183,7 +183,7 @@ img{
 .icon img:hover{
     background-color: #EF5B78;
     height: 4vw;
-    
+    transition: ease-out 1s;
     
     
 }
@@ -191,5 +191,9 @@ img{
     margin-left: 1vw;
     margin-bottom: 1vw;
     display: block;
+}
+.form{
+    background-color: #3A3C45;
+    height: 45vh;
 }
 
